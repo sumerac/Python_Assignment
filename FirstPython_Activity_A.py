@@ -15,8 +15,8 @@ def show_km2mi(Distance):
 
 def main():
     Distance = float(input
-                     ("Please enter the distance in kilometers that you wish 
-                      to convert in miles: "))
+                     ("Please enter the distance in kilometers that you wish" 
+                      "to convert in miles: "))
     show_km2mi(Distance)
 
 main()
