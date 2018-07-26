@@ -5,8 +5,9 @@ cache: pip
 # command to install dependencies    
 before_script:  
   - easy_install distribute  
-  - pip install -r requirements.txt  
+  - pip install -r requirements.txt
+install:
+  - pip install tkinter
 # command to run tests    
 script:   
   - python "Python HW1_Activity 1".py
-
