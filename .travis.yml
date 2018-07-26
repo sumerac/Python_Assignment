@@ -7,7 +7,11 @@ before_script:
   - easy_install distribute  
   - pip install -r requirements.txt
   - pip install pycodestyle
+  - pip install pandas
+  - pip install matplotlib
 # command to run tests    
 script:  
   - pycodestyle FirstPython_Activity_A.py
   - python FirstPython_Activity_A.py < inputvalues.txt
+  - pycodestyle PYTHON_Activity_B_VISUALIZATION_Sumera_Chaudhry.py
+  
