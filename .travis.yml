@@ -1,4 +1,4 @@
-﻿language: python  
+language: python  
 python:  
   - "3.6"  
 cache: pip  
@@ -6,8 +6,8 @@ cache: pip
 before_script:  
   - easy_install distribute  
   - pip install -r requirements.txt
-install:
-  - pip install python3-tk
+  - pip install pycodestyle
 # command to run tests    
-script:   
-  - python "Python HW1_Activity 1".py
+script:  
+  - pycodestyle FirstPython_Activity_A.py
+  - python "FirstPython_Activity_A".py < inputvalues.txt
